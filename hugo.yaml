@@ -1,0 +1,8 @@
+baseURL: https://pastors.ctmug.net/
+languageCode: en-us
+title: CTM Pastors
+theme: github.com/theNewDynamic/gohugo-theme-ananke
+
+module:
+  imports:
+    - path: github.com/theNewDynamic/gohugo-theme-ananke
