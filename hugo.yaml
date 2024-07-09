@@ -6,3 +6,9 @@ theme: github.com/theNewDynamic/gohugo-theme-ananke
 module:
   imports:
     - path: github.com/theNewDynamic/gohugo-theme-ananke
+  mounts:
+    - source: "assets"
+      target: "assets"
+    - source: "node_modules/maplibre-gl/dist/maplibre-gl.css"
+      target: "assets/css/maplibre-gl.css"
+

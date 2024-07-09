@@ -1,0 +1,24 @@
+{
+  "name": "ctm-pastors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henderb/ctm-pastors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henderb/ctm-pastors/issues"
+  },
+  "homepage": "https://github.com/henderb/ctm-pastors#readme",
+  "dependencies": {
+    "maplibre-gl": "^4.5.0",
+    "pmtiles": "^3.0.6",
+    "protomaps-themes-base": "^3.0.1"
+  }
+}
