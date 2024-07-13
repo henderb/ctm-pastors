@@ -1,6 +1,7 @@
 ---
 title: CTC Bukwo
 location: 34.74,1.30
+region: elgon
 ---
 
 ### Stats

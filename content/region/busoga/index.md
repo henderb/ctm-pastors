@@ -8,7 +8,7 @@ location: 33.12,0.95
 
  - Coordinator: [Ronald](/pastor/ronald)
 
-### Struggles
+### Area Struggles
 
  - Prosperity Gospel
  - Extra-biblical teaching
