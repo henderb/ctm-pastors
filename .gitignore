@@ -1,6 +1,5 @@
 /public/
 /resources/_gen/assets
-/resources/_gen/
 
 .hugo_build.lock
 
