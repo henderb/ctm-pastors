@@ -1,12 +1,8 @@
 ---
 title: Busoga Region
-coordinator: ronald
+coordinator: bonobere-ronald
 location: 33.12,0.95
 ---
-
-### Stats
-
- - Coordinator: [Ronald](/pastor/ronald)
 
 ### Area Struggles
 

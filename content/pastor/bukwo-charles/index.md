@@ -1,7 +1,6 @@
 ---
 title: Pastor Charles
+church: bukwo
 ---
-
-Pastor of [CTC Bukwo](/church/bukwo)
 
 ![Pastor Charles](images/bukwo-charles.jpg)

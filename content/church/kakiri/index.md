@@ -1,6 +1,7 @@
 ---
 title: CTC Kakiri
+church: kakiri
+pastor: magezi-arthur
 ---
-Pastor: [Arthur Magezi](/pastor/arthur)
 
 

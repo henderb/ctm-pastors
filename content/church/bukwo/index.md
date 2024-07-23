@@ -1,16 +1,12 @@
 ---
 title: CTC Bukwo
+size: 20
 location: 34.74,1.30
 region: elgon
+pastor: bukwo-charles
 ---
 
-### Stats
-
- - Pastor: 
- - Church Size:
-
-
-### Struggles
+## Struggles
 
  - Witchcraft
  - Ancestor Worship
