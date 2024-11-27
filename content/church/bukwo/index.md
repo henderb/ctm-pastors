@@ -14,4 +14,4 @@ pastor: bukwo-charles
  - Multiple Wives
  - Too many children to provide for
 
-{{<map tiles-url="/map/uganda.pmtiles" marker-points="34.74,1.30">}}
+{{<map marker-points="34.74,1.30">}}

@@ -9,4 +9,4 @@ location: 33.12,0.95
  - Prosperity Gospel
  - Extra-biblical teaching
 
-{{<map tiles-url="/map/uganda.pmtiles" marker-points="33.12,0.95">}}
+{{<map marker-points="33.12,0.95">}}

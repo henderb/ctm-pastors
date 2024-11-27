@@ -12,4 +12,4 @@ size: 20
  - High malaria incidence
  - Schools far away
 
-{{<map tiles-url="/map/uganda.pmtiles" marker-points="33.077,1.170">}}
+{{<map marker-points="33.077,1.170">}}
