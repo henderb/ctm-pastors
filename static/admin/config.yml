@@ -15,6 +15,7 @@ collections:
     media_folder: 'images'
     public_folder: 'images'
     path: '{{slug}}/index'
+    slug: '{{title}}'
     editor:
       preview: true
     fields:
@@ -33,6 +34,7 @@ collections:
     media_folder: 'images'
     public_folder: 'images'
     path: '{{slug}}/index'
+    slug: '{{title}}'
     editor:
       preview: true
     fields:
@@ -52,6 +54,7 @@ collections:
     media_folder: 'images'
     public_folder: 'images'
     path: '{{slug}}/index'
+    slug: '{{title}}'
     editor:
       preview: true
     fields:
