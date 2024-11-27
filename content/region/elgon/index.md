@@ -1,11 +1,8 @@
 ---
 title: Elgon Region
 location: 34.74,1.30
+coordinator: david-monday
 ---
-
-### Stats
-
- - Coordinator: [David Monday](/pastor/david-monday)
 
 ### Area Struggles
 
