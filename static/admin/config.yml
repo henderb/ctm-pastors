@@ -1,0 +1,68 @@
+backend:
+  name: github
+  repo: henderb/ctm-pastors
+  branch: main
+  base_url: https://cms-auth.henderb.net
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'pastor'
+    label: 'Pastor'
+    folder: 'content/pastor'
+    create: true
+    slug: 'index'
+    media_folder: 'images'
+    public_folder: 'images'
+    path: '{{slug}}/index'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: 'Pastor', name: 'church', widget: 'relation', collection: 'church', value_field: 'church', search_fields: ['title', 'slug'] }
+      - { label: 'Coordinator', name: 'region', widget: 'relation', collection: 'region', value_field: 'region', search_fields: ['title', 'slug'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        field: { label: 'Tag', name: 'tag', widget: 'string' }
+  - name: 'church'
+    label: 'Church'
+    folder: 'content/church'
+    create: true
+    slug: 'index'
+    media_folder: 'images'
+    public_folder: 'images'
+    path: '{{slug}}/index'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: 'Pastor', name: 'pastor', widget: 'relation', collection: 'pastor', value_field: 'slug', search_fields: ['title', 'slug'] }
+      - { label: 'Region', name: 'region', widget: 'relation', collection: 'region', value_field: 'region', search_fields: ['title', 'slug'] }
+      - { label: 'Location', name: 'location', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        field: { label: 'Tag', name: 'tag', widget: 'string' }
+  - name: 'region'
+    label: 'Region'
+    folder: 'content/region'
+    create: true
+    slug: 'index'
+    media_folder: 'images'
+    public_folder: 'images'
+    path: '{{slug}}/index'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: 'Coordinator', name: 'coordinator', widget: 'relation', collection: 'pastor', value_field: 'region', search_fields: ['title', 'slug'] }
+      - { label: 'Location', name: 'location', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        field: { label: 'Tag', name: 'tag', widget: 'string' }

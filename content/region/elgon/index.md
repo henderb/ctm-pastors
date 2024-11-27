@@ -1,6 +1,6 @@
 ---
 title: Elgon Region
-location: 34.74,1.30
+location: 34.660,1.354
 coordinator: david-monday
 ---
 
@@ -12,3 +12,4 @@ coordinator: david-monday
  - Multiple Wives
  - Too many children to provide for
 
+{{<map marker-points="34.660,1.354">}}
