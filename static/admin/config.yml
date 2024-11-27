@@ -14,14 +14,12 @@ collections:
     create: true
     media_folder: 'images'
     public_folder: 'images'
-    path: '{{slug}}/index'
-    slug: '{{slug}}'
     editor:
       preview: true
     fields:
       - { label: 'Name', name: 'title', widget: 'string' }
-      - { label: 'Pastor', name: 'church', widget: 'relation', collection: 'church', value_field: '{{slug}}', search_fields: ['title'] }
-      - { label: 'Coordinator', name: 'region', widget: 'relation', collection: 'region', value_field: '{{slug}}', search_fields: ['title'] }
+      - { label: 'Pastor Of', name: 'church', widget: 'relation', collection: 'church', value_field: '{{slug}}', search_fields: ['title'] }
+      - { label: 'Coordinator Of', name: 'region', widget: 'relation', collection: 'region', value_field: '{{slug}}', search_fields: ['title'] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Tags'
         name: 'tags'
@@ -33,8 +31,6 @@ collections:
     create: true
     media_folder: 'images'
     public_folder: 'images'
-    path: '{{slug}}/index'
-    slug: '{{slug}}'
     editor:
       preview: true
     fields:
@@ -53,8 +49,6 @@ collections:
     create: true
     media_folder: 'images'
     public_folder: 'images'
-    path: '{{slug}}/index'
-    slug: '{{slug}}'
     editor:
       preview: true
     fields:
