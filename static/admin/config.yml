@@ -20,8 +20,8 @@ collections:
       preview: true
     fields:
       - { label: 'Name', name: 'title', widget: 'string' }
-      - { label: 'Pastor', name: 'church', widget: 'relation', collection: 'church', value_field: 'church', search_fields: ['title', 'slug'] }
-      - { label: 'Coordinator', name: 'region', widget: 'relation', collection: 'region', value_field: 'region', search_fields: ['title', 'slug'] }
+      - { label: 'Pastor', name: 'church', widget: 'relation', collection: 'church', value_field: '{{slug}}', search_fields: ['title'] }
+      - { label: 'Coordinator', name: 'region', widget: 'relation', collection: 'region', value_field: '{{slug}}', search_fields: ['title'] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Tags'
         name: 'tags'
@@ -39,8 +39,8 @@ collections:
       preview: true
     fields:
       - { label: 'Name', name: 'title', widget: 'string' }
-      - { label: 'Pastor', name: 'pastor', widget: 'relation', collection: 'pastor', value_field: 'slug', search_fields: ['title', 'slug'] }
-      - { label: 'Region', name: 'region', widget: 'relation', collection: 'region', value_field: 'region', search_fields: ['title', 'slug'] }
+      - { label: 'Pastor', name: 'pastor', widget: 'relation', collection: 'pastor', value_field: '{{slug}}', search_fields: ['title'] }
+      - { label: 'Region', name: 'region', widget: 'relation', collection: 'region', value_field: '{{slug}}', search_fields: ['title'] }
       - { label: 'Location', name: 'location', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Tags'
@@ -59,7 +59,7 @@ collections:
       preview: true
     fields:
       - { label: 'Name', name: 'title', widget: 'string' }
-      - { label: 'Coordinator', name: 'coordinator', widget: 'relation', collection: 'pastor', value_field: 'region', search_fields: ['title', 'slug'] }
+      - { label: 'Coordinator', name: 'coordinator', widget: 'relation', collection: 'pastor', value_field: '{{slug}}', search_fields: ['title'] }
       - { label: 'Location', name: 'location', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Tags'
