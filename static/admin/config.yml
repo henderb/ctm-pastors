@@ -26,6 +26,7 @@ collections:
         name: 'tags'
         widget: 'list'
         field: { label: 'Tag', name: 'tag', widget: 'string' }
+        required: false
   - name: 'church'
     label: 'Church'
     folder: 'content/church'
@@ -45,6 +46,7 @@ collections:
         name: 'tags'
         widget: 'list'
         field: { label: 'Tag', name: 'tag', widget: 'string' }
+        required: false
   - name: 'region'
     label: 'Region'
     folder: 'content/region'
@@ -63,3 +65,4 @@ collections:
         name: 'tags'
         widget: 'list'
         field: { label: 'Tag', name: 'tag', widget: 'string' }
+        required: false
