@@ -40,7 +40,7 @@ collections:
       - { label: 'Name', name: 'title', widget: 'string' }
       - { label: 'Pastor', name: 'pastor', widget: 'relation', collection: 'pastor', value_field: '{{slug}}', search_fields: ['title'], required: false}
       - { label: 'Region', name: 'region', widget: 'relation', collection: 'region', value_field: '{{slug}}', search_fields: ['title'] }
-      - { label: 'Location', name: 'location', widget: 'string' }
+      - { label: 'Location', name: 'location', widget: 'string', required: false}
       - { label: 'Body', name: 'body', widget: 'markdown', required: false}
       - label: 'Tags'
         name: 'tags'
